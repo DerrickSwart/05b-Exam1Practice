@@ -3,8 +3,8 @@ PRACTICE Exam 1, problem 3.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Valerie Galluzzi, Mark Hays, Amanda Stouder, Aaron Wilkin,
-         their colleagues, and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues, and Derrick Swart.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
 
@@ -117,6 +117,8 @@ def problem3a(window, point, n):
     What goes out:
       -- Returns the sum of the thicknesses of the rg.Lines
          that are drawn as described in the Side effects (below).
+
+
     Side effects:
       Draws   n  rg.Lines on the given rg.RoseWindow,
       as follows:
@@ -132,6 +134,8 @@ def problem3a(window, point, n):
               the rg.Line to its left, but no greater than 13.
               (So once a rg.Line has thickness 13,
               it and all the rg.Lines to its right have thickness 13.)
+
+
     Type hints:
         :type window: rg.RoseWindow
         :type point:  rg.Point
